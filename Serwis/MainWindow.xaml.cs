@@ -48,6 +48,7 @@ namespace Serwis
 
         private async void connectAsync()
         {
+            //MySql Connect 
             var builder = new MySqlConnectionStringBuilder
             {
                 Server = "mws02.mikr.us",
